@@ -1,0 +1,14 @@
+Turret {
+ coords 1359.799 39 2147.228
+}
+Vehicle UAZ469_PKM_modded1 {
+ coords 2134.412 57.4 2099.569
+}
+$grp Vehicle : "{C57766D384CBE800}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_PKM_test.et" {
+ UAZ469_PKM_test2 {
+  coords 2153.015 61.864 2130.214
+ }
+ UAZ469_PKM_test1 {
+  coords 2143.639 57.256 2097.085
+ }
+}

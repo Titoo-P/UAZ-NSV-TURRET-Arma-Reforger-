@@ -1,0 +1,52 @@
+GenericEntity : "{842D220FF4EFF2A8}Prefabs/Weapons/HeavyWeapons/NSV/HMG_NSV_base.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  SlotManagerComponent "{6044A1932A368344}" {
+   Slots {
+    EntitySlotInfo Dovetail {
+     PivotID "slot_dovetail"
+     ChildPivotID "snap_weapon"
+     Prefab "{A97F179B2DA6DE33}Prefabs/Weapons/Attachments/Mounts/Dovetail_NSV/Dovetail_NSV.et"
+    }
+    RegisteringComponentSlotInfo palito {
+     Offset -0.4616 -0.2178 0.2001
+     Angles 70.6546 180 -90
+     Prefab "{175A8CC6C83C9F14}Prefabs/Props/Furniture/ChairRecreation_01/Dst/ChairRecreation_01_Dst_04_red.et"
+    }
+    RegisteringComponentSlotInfo palito2 {
+     Offset -0.4752 0.3388 -0.0482
+     Angles -86.823 0.5845 90
+     Prefab "{175A8CC6C83C9F14}Prefabs/Props/Furniture/ChairRecreation_01/Dst/ChairRecreation_01_Dst_04_red.et"
+    }
+    RegisteringComponentSlotInfo Culata {
+     Offset 0.0028 0.0375 -0.0291
+     Angles -0.44 -0.0112 0.0724
+     Prefab "{AD045AFAFFC1AB6E}Prefabs/Weapons/Attachments/Stocks/Stock_VZ58/Stock_VZ58_folding.et"
+    }
+    RegisteringComponentSlotInfo palito3 {
+     Offset 0.493 -0.1877 -0.0201
+     Angles 86.053 -179.99966 90.0003
+     Prefab "{175A8CC6C83C9F14}Prefabs/Props/Furniture/ChairRecreation_01/Dst/ChairRecreation_01_Dst_04_red.et"
+    }
+   }
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{5AF070F55031A54D}" {
+     AttachmentSlot InventoryStorageSlot optics {
+      PivotID ""
+      Offset -0.027 0.0997 -0.0486
+     }
+    }
+    MuzzleComponent "{50F64C4591CD7AA6}" {
+     MagazineTemplate "{FC4505F76BAE8A7E}Prefabs/Weapons/Magazines/NSV/Box_127x108_NSV_50rnd_4AP_1APIT.et"
+    }
+    WeaponAnimationComponent "{60B4EA76EB15F6E0}" {
+     AnimInstance "{BA0CF76FB37A8638}Assets/Weapons/HeavyWeapons/workspaces/NSV_Weapon_tripod.asi"
+     StartNode "WeaponMasterControl"
+    }
+   }
+  }
+ }
+ coords 0 0 0
+}
