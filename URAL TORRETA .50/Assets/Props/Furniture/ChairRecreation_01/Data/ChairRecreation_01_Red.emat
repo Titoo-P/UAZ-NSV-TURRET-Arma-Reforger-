@@ -1,0 +1,58 @@
+MatPBRMulti {
+ Color 0 0 0 1
+ SurfaceProperties "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+ UVSrcGlobalMaps "UV set 2"
+ GlobalMapsUVTransform MatUVTransform "{544A6ED6EDE2F186}" {
+ }
+ MaskMap "{6EEAD13FA615F3E3}Assets/Props/Furniture/ChairRecreation_01/Data/ChairRecreation_01_GLOBAL_MASK.edds"
+ DirtOpacity 0.3
+ DirtLayerSharpness 0.48
+ DirtColor 0.454 0.256 0.137 1
+ DirtRoughness 2
+ DirtBCRMap "{366028E90066FC57}Assets/_SharedData/Dirt/ST_Dirt_Sand_BCR.edds" "{0FDD8E566DC8812C}Assets/_SharedData/Dirt/ST_Clay_Rough01_1m_BCR.edds" anim( 0 )
+ DirtMaskMap "{F4BF2FE292D334B3}Assets/_SharedData/DetailMask/ST_Concrete_01_Mask1.edds"
+ Enabled_4 1
+ Color_4 0.337 0.194 0.109 1
+ BCR_4 "{BC9A8DF1F2EDD684}Assets/_SharedData/Wood/ST_WoodPlain_Clean_01_BCR.edds"
+ NMO_4 "{844236632B9A841A}Assets/_SharedData/Wood/ST_WoodPlain_Clean_01_NMO.edds"
+ MaskSharpness_4 2
+ Mask_4 "{AF3EED70E19D46AB}Assets/_SharedData/DetailMask/ST_Scratches_02_MASK1.edds"
+ MaskUVScale_4 15
+ UVTransform_4 MatUVTransform "{544C24659F84C3E3}" {
+  TilingV 2.5
+ }
+ DetNormal_4 1.3
+ Metalness_4 0
+ Enabled_3 1
+ Color_3 0.314 0.231 0.189 1
+ BCR_3 "{16DE4E86EFB365EA}Assets/_SharedData/Metal/ST_Lighthouse_PaintedMetal_Rusted_BCR.edds"
+ NMO_3 "{E612484F08A45E18}Assets/_SharedData/Metal/ST_Lighthouse_PaintedMetal_Rusted_NMO.edds"
+ MaskSharpness_3 7.24
+ Mask_3 "{816ABEBED1A52FF3}Assets/_SharedData/DetailMask/ST_Mud_01_Mask.edds"
+ MaskUVScale_3 12.001
+ UVTransform_3 MatUVTransform "{544A6EDD2D50F85D}" {
+  TilingU 3
+  TilingV 3
+ }
+ DetNormal_3 1.5
+ Roughness_3 2.02
+ Enabled_2 1
+ Color_2 0.275 0.024 0.028 1
+ BCR_2 "{BC9A8DF1F2EDD684}Assets/_SharedData/Wood/ST_WoodPlain_Clean_01_BCR.edds"
+ NMO_2 "{844236632B9A841A}Assets/_SharedData/Wood/ST_WoodPlain_Clean_01_NMO.edds"
+ UVTransform_2 MatUVTransform "{544A6EDA75E26EE9}" {
+  TilingU 5
+  TilingV 5
+ }
+ DetNormal_2 0.3
+ Roughness_2 1.507
+ Metalness_2 0.882
+ Color_1 0.468 0.414 0.324 1
+ BCR_1 "{6390F3AA091C74E1}Assets/_SharedData/Metal/ST_MetalPaint_Mate_1m_BCR.edds"
+ NMO_1 "{E33A5A9E39D9E660}Assets/_SharedData/Metal/ST_MetalPaint_Mate_1m_NMO.edds"
+ UVTransform_1 MatUVTransform "{544A6ED8572308A9}" {
+  TilingU 1.5
+  TilingV 1.5
+ }
+ DetNormal_1 3
+}
