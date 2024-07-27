@@ -8,25 +8,16 @@ GenericEntity : "{842D220FF4EFF2A8}Prefabs/Weapons/HeavyWeapons/NSV/HMG_NSV_base
      ChildPivotID "snap_weapon"
      Prefab "{A97F179B2DA6DE33}Prefabs/Weapons/Attachments/Mounts/Dovetail_NSV/Dovetail_NSV.et"
     }
-    RegisteringComponentSlotInfo palito {
-     Offset -0.4616 -0.2178 0.2001
-     Angles 70.6546 180 -90
-     Prefab "{175A8CC6C83C9F14}Prefabs/Props/Furniture/ChairRecreation_01/Dst/ChairRecreation_01_Dst_04_red.et"
+    RegisteringComponentSlotInfo CulatayGatillo {
+     Offset -0.0571 0.2376 -0.1226
+     Prefab "{2BE26641942395C8}Prefabs/Props/Core/Culata.et"
+     DisablePhysicsInteraction 1
     }
-    RegisteringComponentSlotInfo palito2 {
-     Offset -0.4752 0.3388 -0.0482
-     Angles -86.823 0.5845 90
-     Prefab "{175A8CC6C83C9F14}Prefabs/Props/Furniture/ChairRecreation_01/Dst/ChairRecreation_01_Dst_04_red.et"
-    }
-    RegisteringComponentSlotInfo Culata {
-     Offset 0.0028 0.0375 -0.0291
-     Angles -0.44 -0.0112 0.0724
-     Prefab "{AD045AFAFFC1AB6E}Prefabs/Weapons/Attachments/Stocks/Stock_VZ58/Stock_VZ58_folding.et"
-    }
-    RegisteringComponentSlotInfo palito3 {
-     Offset 0.493 -0.1877 -0.0201
-     Angles 86.053 -179.99966 90.0003
-     Prefab "{175A8CC6C83C9F14}Prefabs/Props/Furniture/ChairRecreation_01/Dst/ChairRecreation_01_Dst_04_red.et"
+    RegisteringComponentSlotInfo Blindaje {
+     Offset 0.5399 -0.3785 0.2704
+     Angles 0 90 0
+     Prefab "{C463D7ECA69AF48A}Prefabs/Props/Core/armadura_1_frontal.et"
+     DisablePhysicsInteraction 1
     }
    }
   }
@@ -48,5 +39,5 @@ GenericEntity : "{842D220FF4EFF2A8}Prefabs/Weapons/HeavyWeapons/NSV/HMG_NSV_base
    }
   }
  }
- coords 0 0 0
+ coords 1216.93 39.191 2209.642
 }
